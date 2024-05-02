@@ -1,0 +1,27 @@
+﻿<Page x:Class="Tumat_pr17.UpdPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Tumat_pr17"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="400"
+      Title="UpdPage">
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="34,50,0,0" TextWrapping="Wrap" Text="id" VerticalAlignment="Top" Height="28" Width="85"/>
+        <TextBox Name="id_box" HorizontalAlignment="Left" Height="29" Margin="152,49,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="157"/>
+        <TextBlock HorizontalAlignment="Left" Margin="34,103,0,0" TextWrapping="Wrap" Text="Название самолета" VerticalAlignment="Top" Height="28" Width="85"/>
+        <TextBox Name="name_box" HorizontalAlignment="Left" Height="29" Margin="152,102,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="157"/>
+        <TextBlock HorizontalAlignment="Left" Margin="34,162,0,0" TextWrapping="Wrap" Text="Дата производства" VerticalAlignment="Top" Height="28" Width="85"/>
+        <TextBox Name="date_box" HorizontalAlignment="Left" Height="29" Margin="152,161,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="157"/>
+        <TextBlock HorizontalAlignment="Left" Margin="34,220,0,0" TextWrapping="Wrap" Text="Вместимость" VerticalAlignment="Top" Height="28" Width="85"/>
+        <TextBox Name="capacity_box" HorizontalAlignment="Left" Height="29" Margin="152,219,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="157"/>
+        <TextBlock HorizontalAlignment="Left" Margin="34,279,0,0" TextWrapping="Wrap" Text="Техническое обслуживание" VerticalAlignment="Top" Height="28" Width="85"/>
+        <TextBox Name="to_box" HorizontalAlignment="Left" Height="29" Margin="152,278,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="157"/>
+        <TextBlock HorizontalAlignment="Left" Margin="34,336,0,0" TextWrapping="Wrap" Text="Часы полета" VerticalAlignment="Top" Height="28" Width="85"/>
+        <TextBox Name="hours_box" HorizontalAlignment="Left" Height="29" Margin="152,335,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="157"/>
+        <Button Name="upd" Content="Обновить" HorizontalAlignment="Left" Margin="127,397,0,0" VerticalAlignment="Top" Width="75" Click="upd_Click"/>
+
+    </Grid>
+</Page>
